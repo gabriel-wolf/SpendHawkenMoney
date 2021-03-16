@@ -1,15 +1,16 @@
-body,html {
-    font-family: -apple-system,Roboto,sans-serif;
+body, html {
+    font-family: -apple-system, Roboto, sans-serif;
     font-weight: 500;
     color: #333;
-    background-color: #f1f2f6;
+    background-color: white;
+    /* background-color: #f1f2f6; */
     padding: 0;
     margin: 0;
     touch-action: manipulation
 }
 
 p {
-    font-family: -apple-system,Roboto,sans-serif;
+    font-family: -apple-system, Roboto, sans-serif;
     line-height: 1.6em;
     font-size: 18px;
     margin-bottom: 30px;
@@ -17,7 +18,7 @@ p {
 }
 
 .header {
-    font-family: -apple-system,Roboto,sans-serif;
+    font-family: -apple-system, Roboto, sans-serif;
     color: rgb(51, 51, 51);
     font-size: 32px;
     background: white;
@@ -43,7 +44,7 @@ p {
 }
 
 .top {
-    font-family: -apple-system,Roboto,sans-serif;
+    font-family: -apple-system, Roboto, sans-serif;
     font-weight: 500;
     max-width: 1000px;
     margin-left: auto;
@@ -51,10 +52,8 @@ p {
     color: rgb(51, 51, 51);
 }
 
-
-
 .fulldiv {
-    font-family: -apple-system,Roboto,sans-serif;
+    font-family: -apple-system, Roboto, sans-serif;
     font-weight: 500;
     max-width: 1000px;
     margin-left: auto;
@@ -63,7 +62,7 @@ p {
 }
 
 .listtitle {
-    font-family: -apple-system,Roboto,sans-serif;
+    font-family: -apple-system, Roboto, sans-serif;
     color: rgb(51, 51, 51);
     text-align: center;
     font-size: 22px;
@@ -74,7 +73,7 @@ p {
     border-color: lightblue;
     border-width: medium;
     background-color: transparent;
-    font-family: -apple-system,Roboto,sans-serif;
+    font-family: -apple-system, Roboto, sans-serif;
     font-weight: 600;
     text-align: center;
     font-size: 22px;
@@ -89,7 +88,7 @@ p {
     padding: 10px;
 }
 
-.grid-container > div {
+.grid-container>div {
     background-color: rgba(255, 255, 255, 1.0);
     text-align: center;
     padding: 20px 0;
@@ -97,5 +96,49 @@ p {
 }
 
 .dollasign::before {
-    content:"$";
+    content: "$";
+}
+
+#infoline {
+    font-weight: 600;
+    color: red;
+}
+
+.nicebutton {
+    font-weight: 600;
+    font-size: larger;
+    background: linear-gradient(rgb(231, 44, 38), rgb(196, 22, 22));
+    /* background: linear-gradient(rgb(46, 204, 113), rgb(26, 188, 156)); */
+    color: white;
+    border-radius: 5px;
+    /* border-width: 6px !important; */
+    /* border: brown; */
+    padding: 0.5rem !important;
+    border: transparent;
+    /* border: rgb(26, 188, 156); */
+    /* border-style: solid !important; */
+    /* padding-bottom: 6px !important; */
+    /* border: transparent; */
+    /* padding: 0.5%; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.noedit {
+    -webkit-user-modify: read-only;
+    /* -webkit-user-select: none; */
+    border: transparent;
+}
+
+/* .noedit input::-webkit-inner-spin-button {
+    display: none;
+} */
+
+.center {
+    margin: 0;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }

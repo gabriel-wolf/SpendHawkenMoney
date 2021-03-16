@@ -1,0 +1,12 @@
+total money - 4622968
+required expenses (not changeable)
+1. Maintenance - 1233000
+2. Utilities, Taxes & Insurance - 1242000
+3. Interest Expense & Bond Payment - 1120000
+4. Contigency - 233000
+
+
+confirm - (show money loosing)
+
+
+Divisional Expenses (Athletics, Intensives, Supplies, etc...)

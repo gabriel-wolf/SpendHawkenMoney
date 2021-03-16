@@ -12,3 +12,10 @@ have total number of divisional expenses
 multiple spaces spend that like in bill gates
 divide it up
 show what loosing
+
+
+Required
+1. Maintenance 
+2. Utilities, Taxes & Insurance 
+3. Interest Expense & Bond Payment 
+4. Contigency
